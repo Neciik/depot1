@@ -1,0 +1,11 @@
+<% content_for :title, "Nuevo producto" %>
+
+<h1>Nuevo producto</h1>
+
+  <a class="btn btn-primary" href="<%= products_path %>">Regresar al listado de productos</a>
+
+<br><br>
+
+<%= render "form", product: @product %>
+
+
